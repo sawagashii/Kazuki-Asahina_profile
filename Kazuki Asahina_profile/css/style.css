@@ -9,8 +9,10 @@ body {
     color: #000000;
     background-color: #ffffff;
     max-width: 960px;
+    min-width: 573px;
     margin: 0 auto ;
 }
+
 img {
     max-width: 100%;
 }
@@ -49,6 +51,7 @@ header h1 {
 /* main */
 .main {
     margin-bottom: 20px;
+    max-width: 100%;
 }
 /* About */
 #About {
@@ -98,6 +101,7 @@ footer {
 }
 /* モバイル版 */
 @media (max-width: 600px){
+    
     header h1 {
         margin-right: 30px;
     }
@@ -115,14 +119,11 @@ footer {
     #content {
         margin-left: 5rem;
     }
-    #Works {
-        margin: 0;
-    }
     .item {
-        width: 100vh;
-        text-align : center 
+        width: 100%;
+        text-align : center;
     }
     .item p {
         font-size: 0.7rem;
     }
-}
+    }
